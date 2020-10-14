@@ -1,0 +1,56 @@
+.BuildControl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.BuildControl button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 5px;
+    width: 80px;
+    border: 1px solid #2f2011;
+    cursor: pointer;
+    outline: none;
+}
+
+.BuildControl button:disabled {
+    background-color: #d9d9d9;
+    border: 1px solid #7E7365;
+    color: #a7a7a7;
+    cursor: default;
+}
+
+.BuildControl button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Label {
+    padding: 10px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.BuildControl .Less {
+    background-color: #8c493a;
+    color: white;
+}
+
+.BuildControl .More {
+    background-color: #8c493a;
+    color: white;
+}
+
+.BuildControl .Less:hover, .BuildControl .Less:active {
+    background-color: #401d16;
+    color: white;
+}
+
+.BuildControl .More:hover,.BuildControl .More:active {
+    background-color: #401d16;
+    color: white;
+}
